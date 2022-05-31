@@ -5,6 +5,7 @@ var obstacle1Image, obstacle2Image;
 var database, gameState;
 var form, player, playerCount;
 var allPlayers, car1, car2, fuels, powerCoins, obstacles;
+var blastImage;
 var cars = [];
 
 function preload() {
@@ -17,6 +18,7 @@ function preload() {
   obstacle1Image = loadImage("./assets/obstacle1.png");
   obstacle2Image = loadImage("./assets/obstacle2.png");
   lifeImage = loadImage("./assets/life.png");
+  blastImage= loadImage("./assets/blast.png")
 }
 
 function setup() {
